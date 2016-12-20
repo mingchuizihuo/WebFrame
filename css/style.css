@@ -3389,3 +3389,517 @@ ul.notes li div {
 }
 
 
+.folder-list li a {
+    display: block;
+    padding: 5px 0
+}
+
+.folder-list li {
+    display: block
+}
+
+.folder-list li i {
+    margin-right: 8px;
+}
+
+.category-list li a {
+    display: block;
+    padding: 5px 0
+}
+
+.category-list li {
+    display: block
+}
+
+.category-list li i {
+    margin-right: 8px;
+}
+
+.file-manager h5.tag-title {
+    margin-top: 20px
+}
+
+.tag-list li {
+    float: left
+}
+
+
+.tag-list li a {
+    font-size: 10px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block
+}
+
+.file {
+    padding: 0;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px
+}
+
+
+.file-manager .hr-line-dashed {
+    margin: 15px 0
+}
+
+.file .icon, .file .image {
+    height: 100px;
+    overflow: hidden
+}
+
+.file .icon {
+    padding: 15px 10px;
+    text-align: center
+}
+
+.file-control {
+    color: inherit;
+    font-size: 11px;
+    margin-right: 10px
+}
+
+.file-control.active {
+    text-decoration: underline
+}
+
+.file .icon i {
+    font-size: 70px;
+}
+
+.file .file-name {
+    padding: 10px;
+}
+
+.corner {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    right: 0;
+    bottom: 0
+}
+
+a.compose-mail {
+    padding: 8px 10px
+}
+
+.mail-search {
+    max-width: 300px
+}
+
+.profile-content {
+    border-top: none !important
+}
+
+
+.feed-element:first-child {
+    margin-top: 0
+}
+
+.feed-element {
+    padding-bottom: 15px
+}
+
+.feed-element, .feed-element .media {
+    margin-top: 15px
+}
+
+.feed-element, .media-body {
+    overflow: hidden
+}
+
+.feed-element > .pull-left {
+    margin-right: 10px
+}
+
+.dropdown-messages-box img.img-circle, .feed-element img.img-circle {
+    width: 38px;
+    height: 38px
+}
+
+.feed-element .well {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    font-size: 11px;
+    line-height: 16px
+}
+
+.feed-element .actions {
+    margin-top: 10px
+}
+
+.feed-element .photos {
+    margin: 10px 0
+}
+
+.feed-photo {
+    max-height: 180px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+
+.mail-box {
+    border-top: 0;
+    padding: 0;
+    margin-bottom: 20px
+}
+
+.mail-box-header {
+    border-bottom: 0;
+    padding: 30px 20px 20px
+}
+
+.mail-box-header h2 {
+    margin-top: 0
+}
+
+.mail-body {
+    padding: 20px
+}
+
+.mail-text .note-toolbar {
+    padding: 10px 15px
+}
+
+.mail-body .form-group {
+    margin-bottom: 5px
+}
+
+.mail-attachment {
+    padding: 20px;
+    font-size: 12px
+}
+
+
+.mailbox-content {
+    background: 0 0;
+    border: none;
+    padding: 10px
+}
+
+.mail-ontact {
+    width: 23%
+}
+
+.project-actions, .project-people {
+    text-align: right;
+    vertical-align: middle
+}
+
+dd.project-people {
+    text-align: left;
+    margin-top: 5px
+}
+
+.project-people img {
+    width: 32px;
+    height: 32px
+}
+
+.project-title a {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.project-list table tr td {
+    border-top: none;
+    padding: 15px 10px;
+    vertical-align: middle
+}
+
+.project-manager .tag-list li a {
+    font-size: 10px;
+    padding: 5px 12px;
+    border-radius: 2px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block
+}
+
+.project-files li a {
+    font-size: 11px;
+    margin-left: 10px;
+    line-height: 22px
+}
+
+.faq-item {
+    padding: 20px;
+    margin-bottom: 2px;
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: 600;
+    display: block
+}
+
+.faq-answer {
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 15px
+}
+
+.faq-item .tag-item {
+    padding: 2px 6px;
+    font-size: 10px;
+    text-transform: uppercase
+}
+
+.message-input {
+    height: 90px !important
+}
+
+.chat-avatar {
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-right: 10px
+}
+
+.chat-user-name {
+    padding: 10px
+}
+.chat-user {
+    padding: 8px 10px;
+}
+
+
+.chat-view {
+    z-index: 20012
+}
+
+.chat-statistic, .chat-users {
+    margin-left: -30px
+}
+
+@media (max-width: 992px) {
+    .chat-statistic, .chat-users {
+        margin-left: 0
+    }
+}
+
+.chat-view .ibox-content {
+    padding: 0
+}
+
+.chat-message {
+    padding: 10px 20px
+}
+
+.message-avatar {
+    height: 48px;
+    width: 48px;
+    border-radius: 4px;
+    margin-top: 1px
+}
+
+.chat-discussion .chat-message:nth-child(2n+1) .message-avatar {
+    float: left;
+    margin-right: 10px
+}
+
+.chat-discussion .chat-message:nth-child(2n) .message-avatar {
+    float: right;
+    margin-left: 10px
+}
+
+.message {
+    text-align: left;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 4px
+}
+
+.chat-discussion .chat-message:nth-child(2n+1) .message-date {
+    float: right
+}
+
+.chat-discussion .chat-message:nth-child(2n) .message-date {
+    float: left
+}
+
+.chat-discussion .chat-message:nth-child(2n+1) .message {
+    text-align: left;
+    margin-left: 55px
+}
+
+.chat-discussion .chat-message:nth-child(2n) .message {
+    text-align: right;
+    margin-right: 55px
+}
+
+.message-date {
+    font-size: 10px;
+}
+
+.message-content {
+    display: block
+}
+
+.chat-discussion {
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto
+}
+
+
+.chat-users {
+    overflow-y: auto;
+    height: 400px
+}
+
+.chat-message-form .form-group {
+    margin-bottom: 0
+}
+
+.jstree-open > .jstree-anchor > .fa-folder:before {
+    content: "\f07c"
+}
+
+.jstree-default .jstree-icon.none {
+    width: 0
+}
+
+.clients-list {
+    margin-top: 20px
+}
+
+.clients-list .tab-pane {
+    position: relative;
+    height: 600px
+}
+
+.client-detail {
+    position: relative;
+    height: 620px
+}
+
+.clients-list table tr td {
+    height: 46px;
+    vertical-align: middle;
+    border: none
+}
+
+
+.client-link {
+    font-weight: 600;
+}
+
+.client-avatar {
+    width: 42px
+}
+
+.client-avatar img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%
+}
+
+.contact-type {
+    width: 20px;
+}
+
+.client-status {
+    text-align: left
+}
+
+.client-detail .vertical-timeline-content p {
+    margin: 0
+}
+
+.blog h2 {
+    font-weight: 700
+}
+
+.blog .btn, .blog h5 {
+    margin: 0 0 5px
+}
+
+.article h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.article p {
+    font-size: 15px;
+    line-height: 26px
+}
+
+.article-title {
+    text-align: center;
+    margin: 60px 0 40px
+}
+
+.article .ibox-content {
+    padding: 40px
+}
+
+table.issue-tracker tbody tr td {
+    vertical-align: middle;
+    height: 50px
+}
+
+.issue-info {
+    width: 50%
+}
+
+.issue-info a {
+    font-weight: 600;
+}
+
+
+.issue-info small {
+    display: block
+}
+
+.team-members {
+    margin: 10px 0
+}
+
+.team-members img.img-circle {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 5px
+}
+
+.sortable-list {
+    padding: 10px 0
+}
+
+.agile-list {
+    list-style: none;
+    margin: 0
+}
+
+.agile-list li {
+    margin: 0 0 10px;
+    padding: 10px;
+    border-radius: 2px
+}
+.agile-list li:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
