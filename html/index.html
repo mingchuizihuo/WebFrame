@@ -5,11 +5,12 @@
     <title>后台框架</title>
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate/animate.min.css">
+    <!--改变ICON样式-->
     <link rel="stylesheet" href="../css/font-icon/font-awesome.min.css">
     <link rel="stylesheet" href="../css/color.css">
     <link rel="stylesheet" href="../css/style.css">
-
 </head>
+
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
 <div id="wrapper">
@@ -24,7 +25,7 @@
                         <span><img alt="image" class="img-circle" src="../images/dog.jpg" /></span>
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
-                               <span class="block m-t-xs"><strong class="font-bold">Beaut-zihan</strong></span>
+                               <span class="block m-t-xs"><strong class="font-bold">Admin</strong></span>
                                 <span class="text-muted text-xs block">超级管理员<b class="caret"></b></span>
                                 </span>
                         </a>
@@ -38,7 +39,7 @@
                             <li><a class="J_menuItem" href="mailbox.html">信箱</a>
                             </li>
                             <li class="divider"></li>
-                            <li><a href="login.html">安全退出</a>
+                            <li><a href="login/login.html">安全退出</a>
                             </li>
                         </ul>
                     </div>
@@ -61,15 +62,6 @@
                         <li>
                             <a class="J_menuItem" href="index_v3.html">主页示例三</a>
                         </li>
-                        <li>
-                            <a class="J_menuItem" href="index_v4.html">主页示例四</a>
-                        </li>
-                        <li>
-                            <a class="J_menuItem" href="index_v5.html">主页示例三</a>
-                        </li>
-                        <li>
-                            <a class="J_menuItem" href="index_v6.html">主页示例四</a>
-                        </li>
                     </ul>
                 </li>
             </ul>
@@ -80,16 +72,14 @@
     <div id="page-wrapper" class="gray-bg dashbard-1">
         <div class="row border-bottom">
             <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
-                    <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
-                        <div class="form-group">
-                            <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search">
-                        </div>
-                    </form>
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
                 <ul class="nav navbar-top-links navbar-right">
                     <li class="hidden-xs">
-                        <a href="index_v1.html" class="J_menuItem" data-index="0"><i class="fa fa-cart-arrow-down"></i> 购买</a>
+                        <a href="shangcheng.html" target="_blank" data-index="0"><i class="fa fa-cart-arrow-down"></i>商城</a>
                     </li>
                     <li class="dropdown hidden-xs">
                         <a class="right-sidebar-toggle" aria-expanded="false">
@@ -123,7 +113,7 @@
                     </li>
                 </ul>
             </div>
-            <a href="login.html" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+            <a href="login/login.html" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
         </div>
         <div class="row J_mainContent" id="content-main">
             <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="index_v2.html?v=4.0" frameborder="0" data-id="index_v2.html" seamless></iframe>
@@ -143,8 +133,8 @@
             <div class="tab-content">
                 <div id="tab-1" class="tab-pane active">
                     <div class="sidebar-title">
-                        <h3> <i class="fa fa-comments-o"></i> 主题设置</h3>
-                        <small><i class="fa fa-tim"></i> 你可以从这里选择和预览主题的布局和样式，这些设置会被保存在本地，下次打开的时候会直接应用这些设置。</small>
+                        <h3> <i class="fa fa-video-camera"></i> 主题设置</h3>
+                        <small><i class="fa fa-tim"></i> 您可以从这里选择和预览主题的布局和样式，这些设置会被保存在本地，下次打开的时候会直接应用这些设置。</small>
                     </div>
                     <div class="skin-setttings">
                         <div class="title">主题设置</div>
@@ -188,25 +178,25 @@
                         </div>
                         <div class="title">皮肤选择</div>
                         <div class="setings-item default-skin nb">
-                                <span class="skin-name ">
-                         <a href="#" class="s-skin-0">
-                             默认皮肤
-                         </a>
-                    </span>
+                            <span class="skin-name ">
+                                <a href="#" class="s-skin-0">
+                                    默认皮肤
+                                </a>
+                            </span>
                         </div>
                         <div class="setings-item blue-skin nb">
-                                <span class="skin-name ">
-                        <a href="#" class="s-skin-1">
-                            蓝色主题
-                        </a>
-                    </span>
+                            <span class="skin-name ">
+                                <a href="#" class="s-skin-1">
+                                    蓝色主题
+                                </a>
+                            </span>
                         </div>
                         <div class="setings-item yellow-skin nb">
-                                <span class="skin-name ">
-                        <a href="#" class="s-skin-3">
-                            黄色/紫色主题
-                        </a>
-                    </span>
+                            <span class="skin-name ">
+                                <a href="#" class="s-skin-3">
+                                    黄色/紫色主题
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -217,18 +207,21 @@
     <!--右侧边栏结束-->
 </div>
 
+
 <script src="../js/jquery/jquery.min.js"></script>
 <script src="../js/bootstrap/bootstrap.min.js"></script>
+
 <!--手风琴菜单-->
-<script src="../js/index/metisMenu/jquery.metisMenu.js"></script>
+<script src="../js/outjs/metisMenu/jquery.metisMenu.js"></script>
 <!--侧边栏滑动效果-->
-<script src="../js/index/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../js/outjs/slimscroll/jquery.slimscroll.min.js"></script>
 <!--弹窗效果-->
-<script src="../js/index/layer/layer.min.js"></script>
+<script src="../js/outjs/layer/layer.min.js"></script>
+<!--UI框架-->
+<script src="../js/outjs/hplus/hplus.min.js"></script>
 <!--整体框架不可删-->
-<script src="../js/index/hplus.min.js"></script>
-<script src="../js/index/contabs.min.js"></script>
-
-
+<script src="../js/outjs/contabs/contabs.min.js"></script>
+<!--加载条-->
+<script src="../js/outjs/pace/pace.min.js"></script>
 </body>
 </html>
