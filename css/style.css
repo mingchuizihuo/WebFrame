@@ -994,6 +994,10 @@ table.dataTable thead .sorting:after {
     height:64px;
     border-radius: 50%
 }
+.img-circle2 {
+    width:100px !important;
+    height:100px !important;
+}
 
 .btn-circle {
     width: 30px;
@@ -2699,9 +2703,14 @@ table.table-mail tr td {
     font-weight: 400;
 }
 
+/*个人资料*/
 .ibox-content {
     clear: both
 }
+.ibox-content .img{
+    margin:auto;
+}
+
 
 .ibox-heading h3 {
     font-weight: 200;
@@ -5514,64 +5523,12 @@ body.rtls .top-navigation #page-wrapper, body.rtls .top-navigation .footer.fixed
         font-size: 12px
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*补充*/
+/*个人资料弹出框*/
+.ibox-content .title_width{min-width:80px;}
+.ibox-content .btn1 {margin-left: 15% !important;}
+/*个人资料文字*/
+.ibox-content .line_height{line-height: 30px;}
+.ibox-content .title_width2{min-width:100px;}
+.ibox-content .btn2 {margin-left: 15%;}
 

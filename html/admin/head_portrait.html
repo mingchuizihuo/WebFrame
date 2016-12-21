@@ -3,23 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>修改头像</title>
-
-
     <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/font-icon/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/animate/animate.min.css">
+    <!--图片上传-->
+    <link rel="stylesheet" href="../../css/outcss/fileinput/fileinput.min.css">
     <link rel="stylesheet" href="../../css/color.css">
     <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
-<body>
-
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>管理员相片编辑</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="form_editors.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <!--<li><a href="form_editors.html#">选项1</a>-->
+                            <!--</li>-->
+                            <!--<li><a href="form_editors.html#">选项2</a>-->
+                            <!--</li>-->
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <ul class="nav nav-tabs" id="avatar-tab">
+                        <li class="active" id="upload"><a href="javascript:;">本地上传</a>
+                        </li>
+                    </ul>
+                    <!--图片上传-->
+                    <form enctype="multipart/form-data">
+                        <input id="file-0a" class="file" type="file" multiple data-min-file-count="1">
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-default">Reset</button>
+                    </form>
+                    <div class="alert alert-warning alert-dismissable m-t">
+                        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                        - 请上传 <b>尺寸：100*100</b>，<b>大小不超过3m </b>正型照片<br>
+                        - 为了您的计算机安全，本平台不提供视频拍照功能。请严格遵守网络文明规范，严禁上传散播一切不文明图片
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="../../js/jquery/jquery.min.js"></script>
 <script src="../../js/bootstrap/bootstrap.min.js"></script>
 <!--当浏览器不支持嵌套，则弹出回到首页按钮-->
 <script src="../../js/outjs/content/content.min.js"></script>
+<!--图片上传-->
+<script src="../../js/outjs/fileinput/fileinput.min.js"></script>
+
+
 
 
 
